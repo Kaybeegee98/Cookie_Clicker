@@ -1,0 +1,78 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 0;
+}
+
+.clickzone{
+    background-image: url("https://i.pinimg.com/originals/5a/f3/12/5af312bc7a55f35c5c300ae7027dc45b.jpg");
+    flex-grow: 1;
+    height: 100%;
+}
+
+.cookie{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.shop{
+    background: lightblue;
+    flex-grow: 1;
+    border-left: 10px solid darkred;
+    border-right: 10px solid darkred;
+}
+
+.stats{
+    flex-grow: 1;
+}
+
+#button{
+    src: "https://greatamericancookies.s3.amazonaws.com/app/uploads/2015/10/OriginalChocChipMM1.png";
+    width: 250px;
+    height: auto;
+    transition: width 0.2s, height 0.2s;
+}
+
+#button:hover{
+    width: 270px;
+    height: auto;
+}
+
+#counter{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#upgrade{
+    font-size: 20px;
+    padding: 20px 20px;
+    border: 5px solid purple;
+    margin: 15px;
+}
+
+#cost{
+    display: inline-block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#numclick{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#totpoint{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
